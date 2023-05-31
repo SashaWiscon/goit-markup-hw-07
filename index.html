@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <header class="header">
-      <div class="container flex-added">
-      <nav class="flex-added">
-          <a lang="en" class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
+    <header class="page-header">
+      <div class="page-header__container">
+        <a lang="en" class="main-logo" href="./index.html">Web<span class="main-logo--black">Studio</span></a>
+      <nav class="page-header__nav">
         <ul class="nav-site">
           <li class="nav-site-item"><a class="nav-site-link current" href="./index.html">Студія</a></li>
           <li class="nav-site-item"><a class="nav-site-link" href="./portfolio.html">Портфоліо</a></li>
@@ -147,165 +147,173 @@
         </ul>
         </div>
       </section>
-     
+                                         <!-- BEM block -->
       <section class="section-team">
         <div class="section-team__container">
         <h2 class="section-team__title">Наша команда</h2>
-        <ul class="team">
-          <li class="team-item">
-            <img class="team-image"
+        <ul class="card-set">
+          <li class="card-set__item">
+            <article class="employee">
+            <img class="employee__image"
               src="./images/ph1.jpg"
               width="270"
               height="260"
               alt="Employee photo"
             />
-            <div class="team-content">
-              <h3 class="team-name">Ігор Дем'яненко</h3>
-            <p class="team-position" lang="en">Product Designer</p>
-             <ul class="team-icons">
-              <li class="team-icons-item">
-                <a class="team-icons-link" href="">
-                  <svg class="icons-item-pict">
+            <div class="employee__meta">
+              <h3 class="employee__name">Ігор Дем'яненко</h3>
+            <p class="employee__position" lang="en">Product Designer</p>
+             <ul class="social-info">
+              <li class="social-info__item">
+                <a class="social-info__link" href="">
+                  <svg class="social-info__pict">
                     <use href="./images/sprite.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href="">
-                  <svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href="">
+                  <svg class="social-info__pict">
                     <use href="./images/sprite.svg#icon-icon-twitter"></use>
                   </svg> 
                 </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href=""><svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href=""><svg class="social-info__pict">
                   <use href="./images/sprite.svg#icon-icon-facebook"></use>
                 </svg> </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href=""><svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href=""><svg class="social-info__pict">
                   <use href="./images/sprite.svg#icon-icon-linkedin"></use>
                 </svg> </a>
               </li>
              </ul>
             </div>
+          </article>
           </li>
           
-          <li class="team-item">
-            <img class="team-image"
+          <li class="card-set__item">
+            <article class="employee">
+            <img class="employee__image"
               src="./images/ph2.jpg"
               width="270"
               height="260"
               alt="Employee photo"
             />
-            <div class="team-content">
-              <h3 class="team-name">Ольга Рєпіна</h3>
-            <p class="team-position" lang="en">Frontend Developer</p>
-            <ul class="team-icons">
-              <li class="team-icons-item">
-                <a class="team-icons-link" href="">
-                  <svg class="icons-item-pict">
+            <div class="employee__meta">
+              <h3 class="employee__name">Ольга Рєпіна</h3>
+            <p class="employee__position" lang="en">Frontend Developer</p>
+            <ul class="social-info">
+              <li class="social-info__item">
+                <a class="social-info__link" href="">
+                  <svg class="social-info__pict">
                     <use href="./images/sprite.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href="">
-                  <svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href="">
+                  <svg class="social-info__pict">
                     <use href="./images/sprite.svg#icon-icon-twitter"></use>
                   </svg> 
                 </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href=""><svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href=""><svg class="social-info__pict">
                   <use href="./images/sprite.svg#icon-icon-facebook"></use>
                 </svg> </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href=""><svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href=""><svg class="social-info__pict">
                   <use href="./images/sprite.svg#icon-icon-linkedin"></use>
                 </svg> </a>
               </li>
             </ul>
            </div>
+          </article>
            </li>
           
-         <li class="team-item">
-            <img class="team-image"
+         <li class="card-set__item">
+          <article class="employee">
+            <img class="employee__image"
               src="./images/ph3.jpg"
               width="270"
               height="260"
               alt="Employee photo"
             />
-            <div class="team-content">
-              <h3 class="team-name">Микола Тарасов</h3>
-            <p class="team-position" lang="en">Marketing</p>
-            <ul class="team-icons">
-              <li class="team-icons-item">
-                <a class="team-icons-link" href="">
-                  <svg class="icons-item-pict">
+            <div class="employee__meta">
+              <h3 class="employee__name">Микола Тарасов</h3>
+            <p class="employee__position" lang="en">Marketing</p>
+            <ul class="social-info">
+              <li class="social-info__item">
+                <a class="social-info__link" href="">
+                  <svg class="social-info__pict">
                     <use href="./images/sprite.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href="">
-                  <svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href="">
+                  <svg class="social-info__pict">
                     <use href="./images/sprite.svg#icon-icon-twitter"></use>
                   </svg> 
                 </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href=""><svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href=""><svg class="social-info__pict">
                   <use href="./images/sprite.svg#icon-icon-facebook"></use>
                 </svg> </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href=""><svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href=""><svg class="social-info__pict">
                   <use href="./images/sprite.svg#icon-icon-linkedin"></use>
                 </svg> </a>
               </li>
             </ul>
            </div>
+          </article>
           </li>
          
-          <li class="team-item">
-            <img class="team-image"
+          <li class="card-set__item">
+            <article class="employee">
+            <img class="employee__image"
               src="./images/ph4.jpg"
               width="270"
               height="260"
               alt="Employee photo"
             />
-            <div class="team-content">
-              <h3 class="team-name">Михайло Єрмаков</h3>
-            <p class="team-position" lang="en">UI Designer</p>
-             <ul class="team-icons">
-              <li class="team-icons-item">
-                <a class="team-icons-link" href="">
-                  <svg class="icons-item-pict">
+            <div class="employee__meta">
+              <h3 class="employee__name">Михайло Єрмаков</h3>
+            <p class="employee__position" lang="en">UI Designer</p>
+             <ul class="social-info">
+              <li class="social-info__item">
+                <a class="social-info__link" href="">
+                  <svg class="social-info__pict">
                     <use href="./images/sprite.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href="">
-                  <svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href="">
+                  <svg class="social-info__pict">
                     <use href="./images/sprite.svg#icon-icon-twitter"></use>
                   </svg> 
                 </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href=""><svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="team-icons-link" href=""><svg class="social-info__pict">
                   <use href="./images/sprite.svg#icon-icon-facebook"></use>
                 </svg> </a>
               </li>
-              <li class="team-icons-item">
-                <a class="team-icons-link" href=""><svg class="icons-item-pict">
+              <li class="social-info__item">
+                <a class="social-info__link" href=""><svg class="social-info__pict">
                   <use href="./images/sprite.svg#icon-icon-linkedin"></use>
                 </svg> </a>
               </li>
             </ul>
            </div>
+          </article>
           </li>
         </ul>
       </div>

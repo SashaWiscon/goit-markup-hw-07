@@ -41,6 +41,16 @@ img {
   display: flex;
   align-items: center;
 } 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+} 
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
 
                                      /* header */
 .header {
@@ -148,12 +158,7 @@ margin-left: 40px;
   color: var(--accent-text-color);
 }  
 
-.container {
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
-}
+
  
                                    /* main  */
 .hero { 
@@ -169,10 +174,7 @@ max-width: 1600px;
 height: 600px;
 /* background-size: или через ширину;??? */
 }  
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}                                   
+                                  
 .hero-title {
   width: 696px;
   /* text-align: center; */

@@ -5,6 +5,13 @@
 /* white  #FFFFFF */
 /* accent */
 /* blue  #2196F3 */
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color: #2196F3;
+  --white-color: #ffffff;
+}
+
 body {
   background-color: #FFFFFF;
   color: var(--primary-text-color);

@@ -839,9 +839,6 @@ align-items: center;
 /* Сделать интерактивным скрытый снизу чекбокс,чтобы
 кликая на его соседа,на скрытый чек применялся фокус */
 .form-agreement-input:focus + .form-agreement-field::before {
-  /* outline: 1px solid #212121; */
-}
-.form-agreement-input:focus + .form-agreement-field::before {
   outline: 1px solid #2196F3;
 }
 /* изменить у before св-во,если его сосед отмечен(чект) */
@@ -912,9 +909,9 @@ background-color: #2196F3;
 .card-set__item:not(:last-child) {
   margin-right: 30px;
 }
-.employee {
+/* .employee {
 
-}
+} */
 .employee__image {
   margin-top: 0;
   margin-bottom: 0;

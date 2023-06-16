@@ -5,16 +5,12 @@
 /* white  #FFFFFF */
 /* accent */
 /* blue  #2196F3 */
-// I do scss variables
 :root {
-    $main-color: #757575;
-    $secondary-color: #212121;
-    $accent-color: #2196F3;
-    $white-color: #ffffff;  
-    }
-// $some-color: #818ab9;
-// $red-color :#db4f4f;
-// I do CSS variables
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color: #2196F3;
+  --white-color: #ffffff;  
+  }
 
 
 

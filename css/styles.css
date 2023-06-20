@@ -51,6 +51,18 @@ img {
   padding-right: 15px;
   width: 1200px;
 }
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
                                      /* header */
 .header {
@@ -213,18 +225,6 @@ text-transform: uppercase;
   line-height: 1.2;
   color: var(--secondary-text-color);
   text-align: center; 
-}
-.hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 .advantages {
   display: flex;
@@ -873,7 +873,7 @@ background-color: #2196F3;
 }
        /* End of Выпадающая форма */
      
-            /* Bem metodology */      
+            /* Bem metodology team */      
 .section-team {
     margin-right: auto;
     margin-left: auto;
@@ -887,7 +887,7 @@ background-color: #2196F3;
   padding-right: 15px;
   width: 1200px;
 }
-.section-team__title {
+/* .section-team__title { =section-title
   margin-top: 0;
   margin-bottom: 50px;
   font-weight: 700;
@@ -895,7 +895,7 @@ background-color: #2196F3;
   line-height: 1.2;
   color: var(--secondary-text-color);
   text-align: center; 
-} 
+}  */
 .card-set {
   display: flex;
   justify-content: center;

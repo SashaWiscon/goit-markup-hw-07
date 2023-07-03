@@ -1,7 +1,8 @@
 body {
     background-color: #FFFFFF;
     color: var(--primary-text-color);
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     }
     p, ul, ol,
     h1,
@@ -44,7 +45,5 @@ body {
       clip: rect(0 0 0 0);
       overflow: hidden;
     }
-    .current {
-      color: var(--accent-text-color);
-    }
+   
     
